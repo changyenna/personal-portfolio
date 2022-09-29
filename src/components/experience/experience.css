@@ -1,0 +1,503 @@
+#experience {
+    margin-top: -5rem;
+    margin-bottom: 3rem;
+    height: 700px !important;
+    min-height: 700px !important;
+}
+
+.experience__container {
+	max-width: 1200px;
+    /* background-color:#D5C0E0;
+    background-image: linear-gradient(white 1px, transparent 2px),
+    linear-gradient(90deg, white 1px, transparent 2px),
+    linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px; 
+    border: 1px dashed black; */    
+    overflow: hidden;
+    min-height: 600px !important;
+
+}
+
+.scoop1 {
+    position: relative;
+    z-index: 1;
+    left: 40%;
+    top: 100px;
+}
+
+.scoop1:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle at 0 0, transparent 15%, var(--color-light) calc(15%)) top left, 
+    radial-gradient(circle at 100% 0, transparent 15%, var(--color-light) calc(15%)) top right, 
+    radial-gradient(circle at 0 100%, transparent 15%, var(--color-light) calc(15%)) bottom left, 
+    radial-gradient(circle at 100% 100%, transparent 15%, var(--color-light) calc(15%)) bottom right;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    /* width: 950px;
+    height: 570px;
+    left: -377px;
+    top: -90px; */
+    width: 98%;
+    height: 570px;
+    left: -39%;
+    top: -90px;
+}
+
+.scoop2 {
+    position: relative;
+    z-index: 1;
+    left: 40%;
+    top: 100px;
+}
+
+.scoop2:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle at 0 0, transparent 15%, var(--color-bg-variant) calc(15%)) top left, 
+    radial-gradient(circle at 100% 0, transparent 15%, var(--color-bg-variant) calc(15%)) top right, 
+    radial-gradient(circle at 0 100%, transparent 15%, var(--color-bg-variant) calc(15%)) bottom left, 
+    radial-gradient(circle at 100% 100%, transparent 15%, var(--color-bg-variant) calc(15%)) bottom right;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    width: 97.6%;
+    height: 565px;
+    left: -38.8%;
+    top: -88px;
+}
+
+.scoop3 {
+    position: relative;
+    z-index: 1;
+    left: 40%;
+    top: 100px;
+}
+
+.scoop3:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle at 0 0, transparent 15%, var(--color-light) calc(15%)) top left, 
+    radial-gradient(circle at 100% 0, transparent 15%, var(--color-light) calc(15%)) top right, 
+    radial-gradient(circle at 0 100%, transparent 15%, var(--color-light) calc(15%)) bottom left, 
+    radial-gradient(circle at 100% 100%, transparent 15%, var(--color-light) calc(15%)) bottom right;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 539px;
+    left: -37.5%;
+    top: -76px;
+}
+
+
+.scoop4 {
+    position: relative;
+    z-index: 1;
+    left: 40%;
+    top: 100px;
+
+}
+
+.scoop4:before {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle at 0 0, transparent 15%, var(--color-primary) calc(15%)) top left, 
+    radial-gradient(circle at 100% 0, transparent 15%, var(--color-primary) calc(15%)) top right, 
+    radial-gradient(circle at 0 100%, transparent 15%, var(--color-primary) calc(15%)) bottom left, 
+    radial-gradient(circle at 100% 100%, transparent 15%, var(--color-primary) calc(15%)) bottom right;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    width: 94.5%;
+    height: 534px;
+    left: -37.2%;
+    top: -73px;
+}
+
+.scoop4 h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    /* margin-left: -264px; */
+    padding-top: 20px;
+    /* width: 700px;
+    min-width: 700px; */
+}
+
+.scoop4 ul li {
+    list-style-type: circle;
+    list-style-position: outside;
+
+}
+
+.scoop4 li {
+    /* font-size: 2rem; */
+    margin-left: 20px;
+    /* width: 700px;
+    min-width: 700px; */ 
+
+}
+
+.scoop4-top {
+    position: absolute;
+    left: -37.5%;
+    top: 20px;
+    width: 95%;
+    min-width: 95%;
+    height: 3px;
+    border: 1px solid var(--color-light);
+    background-color: var(--color-light);
+}
+
+.scoop4-bottom {
+    position: absolute;
+    left: -37.5%;
+    top: 365px;
+    width: 95%;
+    min-width: 95%;
+    height: 3px;
+    border: 1px solid var(--color-light);
+    background-color: var(--color-light);
+}
+
+.scoop-dot1 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--color-light);
+    background-color: var(--color-bg-variant);
+    border-radius: 10px;
+    position: absolute;
+    left: -27.3%;
+    top: 362px;
+}
+
+
+.scoop4-left {
+    position: absolute;
+    left: -27%;
+    top: -74px;
+    min-height: 537px;
+    width: 0.01px;
+    border: 1px solid transparent;
+    background-color: var(--color-light);
+}
+
+.scoop-dot2 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--color-light);
+    background-color: var(--color-bg-variant);
+    border-radius: 10px;
+    position: absolute;
+    left: 46.2%;
+    top: 17px;
+}
+
+.scoop4-right {
+    position: absolute;
+    left: 46.6%;
+    top: -74px;
+    min-height: 537px;
+    width: 0.01px;
+    border: 1px solid transparent;
+    background-color: var(--color-light);
+}
+
+.resume-content {
+    justify-content: center;
+    text-align: left;
+    width: 67%;
+    min-width: 65%;
+    max-height: 340px;
+    overflow: hidden;
+    position:absolute;
+    left: 100px;
+    margin-top: 17px;
+    margin-left: -33.5%;
+}
+
+.scoop4 h1 {
+    position: absolute;
+    left: -190px;
+    margin-top: -6rem;
+    color: var(--color-primary-variant);
+    /* -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black; */
+    /* color: black; */
+    font-size: 2rem;
+    font-family: 'Chonburi', cursive;
+    letter-spacing: 2px;
+    width: 545px;
+    overflow: hidden;
+    min-width: 345px;
+}
+
+.fa-solid {
+    padding: 60px;
+}
+
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+
+@media screen and (max-width: 1024px) {
+    #experience {
+        margin-bottom: 8rem;
+        margin-top: 35rem;
+    }
+
+
+    .experience__container {
+        /* min-width: 400px; */
+        min-height: 700px !important;
+
+    }
+
+    .scoop1:before {
+        /* width: 950px;
+        height: 570px;
+        left: -377px;
+        top: -90px; */
+        width: 98%;
+        height: 670px;
+        left: -39%;
+        top: -88px;
+    }
+    
+    .scoop2:before {
+        width: 97.5%;
+        height: 666px;
+        left: -38.8%;
+        top: -86px;
+    }
+    
+    .scoop3:before {
+        width: 94%;
+        height: 640px;
+        left: -37%;
+        top: -73px;
+    }
+
+    
+    .scoop4:before {
+        width: 93.5%;
+        height: 636px;
+        left: -36.8%;
+        top: -71px;
+    }
+
+    .scoop4-top {
+        left: -37%;
+        top: 30px;
+        width: 94%;
+        min-width: 94%;
+    }
+
+    .scoop4-bottom {
+        left: -37%;
+        top: 450px;
+        width: 94%;
+        min-width: 94%;
+    }
+
+    .scoop4-left {
+        min-height: 639px;
+        visibility: hidden;
+    }
+
+    .scoop-dot1 {
+        top: 446px;
+        visibility: hidden;
+    }
+
+    .scoop-dot2 {
+        visibility: hidden;
+    }
+
+    .scoop4-right {
+        min-height: 639px;
+        visibility: hidden;
+    }
+
+    .resume-content {
+        width: 80%;
+        min-width: 60% !important; 
+        /* max-width: 260px !important; */
+        max-height: 430px;
+        left: 80px;
+        margin-top: 17px;
+        margin-left: -40%;
+        overflow: hidden;
+
+    }
+
+    .scoop4 h3 {
+        font-weight: 700;
+        font-size: 1rem;
+        /* margin-left: -264px; */
+        padding-top: 20px;
+        /* width: 700px;
+        min-width: 700px; */
+    }
+
+    .scoop4 h1 {
+        left: -175px;
+        margin-top:-5.5rem;
+        font-size: 1.5rem;
+        letter-spacing: 1.4px;
+    }
+
+    .scoop4 li {
+        font-size: 0.9rem;
+        /* margin-left: 14px; */
+        /* width: 700px;
+        min-width: 700px; */ 
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    #experience {
+        margin-top: 70rem;
+        margin-bottom: -20rem;
+    }
+
+    .experience__container {
+        min-width: 400px;
+        min-height: 800px !important;
+
+    }
+    
+    .scoop1:before {
+        /* width: 950px;
+        height: 570px;
+        left: -377px;
+        top: -90px; */
+        width: 98%;
+        height: 770px;
+        left: -39%;
+        top: -88px;
+    }
+    
+    .scoop2:before {
+        width: 97.5%;
+        height: 766px;
+        left: -38.8%;
+        top: -86px;
+    }
+    
+    .scoop3:before {
+        width: 93%;
+        height: 740px;
+        left: -36%;
+        top: -73px;
+    }
+
+    
+    .scoop4:before {
+        width: 92.5%;
+        height: 736px;
+        left: -35.8%;
+        top: -71px;
+    }
+    
+    .scoop4 h3 {
+        font-size: 1rem;
+        /* font-weight: 600; */
+        /* margin-left: -264px; */
+        /* padding-top: 20px; */
+        /* width: 700px;
+        min-width: 700px; */
+    }
+    
+    .scoop4-top {
+        position: absolute;
+        left: -36%;
+        top: 30px;
+        width: 93%;
+        min-width: 93%;
+        height: 1px;
+        border: 1px solid transparent;
+    }
+    
+    .scoop4-bottom {
+        left: -36%;
+        top: 550px;
+        width: 93%;
+        min-width: 93%;
+        height: 1px;
+        border: 1px solid transparent;
+    }
+    
+    .scoop-dot1 {
+        width: 10px;
+        height: 10px;
+
+        background-color: var(--color-bg-variant);
+        border-radius: 10px;
+        position: absolute;
+        left: -254px;
+        top: 347px;
+    }
+    
+    
+    .scoop4-left {
+        position: absolute;
+        left: -250px;
+        top: -65px;
+        min-height: 520px;
+        min-height: 520px;
+        width: 0.01px;
+        border: 1px solid transparent;
+  
+    }
+    
+    .scoop-dot2 {
+        width: 10px;
+        height: 10px;
+
+        background-color: var(--color-bg-variant);
+        border-radius: 10px;
+        position: absolute;
+        left: 436px;
+        top: 27px;
+    }
+    
+    .scoop4-right {
+        position: absolute;
+        left: 440px;
+        top: -65px;
+        min-height: 520px;
+        min-height: 520px;
+        width: 0.01px;
+        border: 1px solid transparent;
+
+    }
+    
+    .resume-content {
+        justify-content: center;
+        text-align: left;
+        width: 350px;
+        min-width: 350px;
+        left: 90px;
+        margin-top: 36px;
+        margin-left: -220px;
+        max-height: none;
+    }
+    
+    .scoop4 h1 {
+        left: -125px;
+        margin-top:-3rem;
+        font-size: 1.5rem;
+        letter-spacing: 1.4px;
+    }
+    
+    .fa-solid {
+        padding: 30px;
+    }
+
+
+
+}

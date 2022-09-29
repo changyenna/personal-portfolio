@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.welcome__container {
+    height: 100%;
+    position: relative;
+    color: pink;
+    overflow: hidden;
+    /* display: flex; */
+    /* align-items: center; */
+}
+  
+.welcome__typewriter {
+    position: absolute;
+    left: 35%;
+    width: 19ch;
+    animation: typing 1.5s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-weight: 700;
+    margin-top: 16rem;
+    top: calc(3%);
+    font-size: 1.6rem;
+    color: var(--color-primary-variant);
+    font-weight: 700;
+    /* text-shadow: .08em .08em 0 var(--color-bg-variant); */
+}
+  
+.welcome__wave {
+    position: absolute;
+    top: calc(10%);
+    left: calc(11.5%);
+    font-size: 1.5rem;
+    animation: wave-animation 2.5s infinite,
+             1s ease-in 5.3s forwards delayedShow; 
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+    animation-delay: 1.5s;
+    visibility: hidden;
+}
+
+/* .wave-prompt {
+    position: absolute;
+    top: calc(68%);
+    left: calc(49%);
+    font-weight: 600;
+    animation: 1s linear 2.3s forwards delayedShow;
+    animation-delay: 1.5s;
+    visibility: hidden;
+    color: #494949;
+} */
+
+.welcome-cta {
+    position: absolute;
+    /* align-items: center; */
+    font-weight: 600;
+    left: 45%;
+    top: 45%;
+    animation: 1s linear 2.3s forwards delayedShow;
+    animation-delay: 1.5s;
+    visibility: hidden;
+    color: #494949;
+}
+
+.w-btn {
+    width: max-content;
+    /* color: var(--color-bg); */
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px dashed black;
+    transition: var(--transition);
+}
+
+.w-btn:hover {
+    background: #fbeaf6;
+    /* color: var(--color-light); */
+    /* border-color: transparent; */
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+}
+
+.w-btn-primary {
+    background: #FEE3F6;
+    /* background-color: var(--color-bg-variant); */
+    color: var(--color-black);
+    width: 140px;
+    height: 45px;
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+ }
+/* The typewriter cursor effect */
+@keyframes blink {
+    50% {
+    border-color: transparent
+    }
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  
+  100% { transform: rotate( 0.0deg) }
+  }
+  
+  @keyframes delayedShow {
+    to {
+      visibility: visible;
+    }
+}
+
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+
+@media screen and (max-width: 1024px) {
+    .welcome__typewriter {
+        top: calc(3%);
+        left: calc(25%);
+    }
+    /* .welcome__wave {
+        top: calc(60%);
+        left: calc(48%);
+    }
+
+    .wave-prompt {
+        top: calc(68%);
+        left: calc(45%);
+    } */
+
+    .welcome-cta {
+        top: 45%;
+        left: calc(38%);
+
+    }
+
+}
+
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+
+@media screen and (max-width: 600px) {
+    .welcome__typewriter {
+        top: calc(3%);
+        left: calc(5%);
+    }
+    /* .welcome__wave {
+        top: calc(55%);
+        left: calc(40%);
+    }
+
+    .wave-prompt {
+        top: calc(63%);
+        left: calc(37%);
+    } */
+
+    .welcome-cta {
+        top: 45%;
+        left: calc(30%);
+
+    }
+
+    .welcome__container {
+        margin-bottom: -100px !important;
+    }
+
+}
+
