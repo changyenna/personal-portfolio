@@ -1,10 +1,10 @@
-Hello! Here is the souce code for my [personal portfolio](https://changyenna.com/).
+Hi there! Welcome to the souce code for my [personal portfolio](https://changyenna.com/).
 
-## Technologies
+# Technologies
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Build
+# Build
 
 ```
 $ git clone https://github.com/changyenna/personal-portfolio.git
